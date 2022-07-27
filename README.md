@@ -22,8 +22,8 @@
 
 - [x] Nextjs 프로젝트 세팅하기
 - [x] Typescript 기반으로 설치
-- [ ] exlint 설정
-- [ ] prettier 설정
+- [x] eslint 설정
+- [x] prettier 설정
 - [ ] 불필요한 파일 정리
 - [ ] package 환경 세팅
 - [ ] 필요한 라이브러리 설치하기
