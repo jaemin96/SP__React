@@ -1,7 +1,30 @@
 @charset "UTF-8";
 
-// *****   base   *****
-// *****   components   *****
-// *****   elements   *****
-// *****   pages   *****
+// *****   abstract (전역, 함수, mixin 스타일 관리)   *****
+@import 'abstracts/mixins';
+@import 'abstracts/variables';
+
+// *****   base (기본 스타일 관리)   *****
+@import 'base/animation';
+@import 'base/base';
+@import 'base/font';
+@import 'base/reset';
+
+// *****   layout (레이아웃 스타일 관리)   *****
+@import 'layouts/footer';
+@import 'layouts/grid';
+@import 'layouts/header';
+@import 'layouts/navigation';
+@import 'layouts/sidebar';
+
+// *****   component (컴포넌트 스타일 관리)   *****
+@import 'components/button';
+
+// *****   page (페이지 스타일 관리)   *****
 @import 'pages/home';
+
+// *****   theme (테마 스타일 관리)   *****
+@import 'themes/themes';
+
+// *****   vendor (외부 라이브러리 스타일 관리)   *****
+@import 'vendors/tailwind';
