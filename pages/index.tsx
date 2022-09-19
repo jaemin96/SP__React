@@ -1,11 +1,14 @@
 import type { NextPage } from 'next';
 import { Fragment } from 'react';
+import { CLink } from '../components/part';
 
 const Home: NextPage = () => {
     return (
         <Fragment>
             <ul>
-                <li>Hooks</li>
+                <li>
+                    <CLink href={'/hooks'}>Hooks</CLink>
+                </li>
                 <li>Auth</li>
                 <li>temp</li>
                 <li>temp</li>

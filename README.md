@@ -8,16 +8,6 @@
 
 -   Nextjs, Typescript
 
-<!-- - JS
-
-   1. d
-   2. d
-
-- d
-
-   1. d
-   2. d -->
-
 ## 스케줄
 
 -   [x] Nextjs 프로젝트 세팅하기
