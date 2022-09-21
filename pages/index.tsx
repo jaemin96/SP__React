@@ -10,7 +10,9 @@ const Home: NextPage = () => {
                     <CLink href={'/hooks'}>Hooks</CLink>
                 </li>
                 <li>Auth</li>
-                <li>temp</li>
+                <li>
+                    <CLink href={'/counter'}>Counter</CLink>
+                </li>
                 <li>temp</li>
                 <li>temp</li>
                 <li>temp</li>
